@@ -32,9 +32,9 @@ app.get('/tags/:name.tag', function (req, res) {
 app.use('/api/todos/', api);
 
 // Start listening for connections
-app.listen(3000, function (err) {
+app.listen(8080, function (err) {
     if (err) {
-        console.error('Cannot listen at port 3000', err);
+        console.error('Cannot listen at port 8080', err);
     }
-    console.log('Todo app listening at port 3000');
+    console.log('Todo app listening at port 8080');
 });
