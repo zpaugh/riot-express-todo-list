@@ -1,10 +1,10 @@
 {
-  "name": "nodejs-riot-todo",
+  "name": "riot-express-todo-list",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "exit 0",
     "start": "node app.js"
   },
   "author": "Pedro Narciso García Revington <p.revington@gmail.com>",
@@ -12,6 +12,8 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "node-cmd": "^3.0.0",
+    "node-ssh": "^5.1.2"
   }
 }
